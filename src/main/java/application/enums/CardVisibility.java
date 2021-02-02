@@ -1,0 +1,5 @@
+package application.enums;
+
+public enum CardVisibility {
+	VISIBLE_FOR_ANYONE, VISIBLE_FOR_OWNER, VISIBLE_FOR_NOBODY, VISIBLE_FOR_ANYBODY_EXCEPT_OWNER;
+}
