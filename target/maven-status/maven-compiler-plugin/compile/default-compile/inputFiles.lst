@@ -1,0 +1,14 @@
+D:\projekte\BusfahrerDependency\src\main\java\application\model\Dealer.java
+D:\projekte\BusfahrerDependency\src\main\java\application\model\CardCollection.java
+D:\projekte\BusfahrerDependency\src\main\java\application\interfaces\ICardCollection.java
+D:\projekte\BusfahrerDependency\src\main\java\application\model\CardDeck.java
+D:\projekte\BusfahrerDependency\src\main\java\application\enums\Suit.java
+D:\projekte\BusfahrerDependency\src\main\java\application\enums\CardValue.java
+D:\projekte\BusfahrerDependency\src\main\java\application\interfaces\ICard.java
+D:\projekte\BusfahrerDependency\src\main\java\application\interfaces\player\IPlayer.java
+D:\projekte\BusfahrerDependency\src\main\java\application\interfaces\player\IPlayerInCardGame.java
+D:\projekte\BusfahrerDependency\src\main\java\application\interfaces\IConnection.java
+D:\projekte\BusfahrerDependency\src\main\java\application\model\Card.java
+D:\projekte\BusfahrerDependency\src\main\java\application\model\Player.java
+D:\projekte\BusfahrerDependency\src\main\java\application\enums\CardVisibility.java
+D:\projekte\BusfahrerDependency\src\main\java\application\model\HandCards.java

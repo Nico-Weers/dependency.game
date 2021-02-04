@@ -48,5 +48,9 @@ public abstract class CardCollection implements ICardCollection {
 		cards.addAll(tempCards);
 	}
 
+	@Override public int getNumberOfCards() {
+		return cards.size();
+	}
+
 
 }

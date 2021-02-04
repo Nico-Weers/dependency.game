@@ -19,4 +19,6 @@ public interface ICardCollection {
 	public ICard remove(int index);
 
 	public void replaceCards(ICardCollection cards);
+
+	public int getNumberOfCards();
 }

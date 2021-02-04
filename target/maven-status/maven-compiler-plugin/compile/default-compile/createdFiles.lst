@@ -1,0 +1,14 @@
+application\interfaces\ICardCollection.class
+application\model\CardCollection.class
+application\enums\Suit.class
+application\model\Card.class
+application\interfaces\player\IPlayerInCardGame.class
+application\enums\CardVisibility.class
+application\interfaces\ICard.class
+application\model\CardDeck.class
+application\model\HandCards.class
+application\interfaces\player\IPlayer.class
+application\model\Dealer.class
+application\model\Player.class
+application\interfaces\IConnection.class
+application\enums\CardValue.class
