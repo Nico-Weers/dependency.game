@@ -9,24 +9,30 @@ import java.util.List;
 
 public class CardDeck extends CardCollection {
 
-	private CardDeck(int deckMultiplier) {
-		List<ICard> cards = new ArrayList<>();
-			for (int suitIndex = 0; suitIndex < Suit.values().length; suitIndex++) {
-				addAllValuesWithSuitTo(cards, Suit.values()[suitIndex]);
-			}
-		this.addAll(cards);
-	}
-
-	private void addAllValuesWithSuitTo(List<ICard> cards, Suit suit) {
-		for (int v = 0; v < CardValue.values().length; v++) {
-			ICard newCard = new Card(suit, CardValue.values()[v]);
-			cards.add(newCard);
+	public CardDeck() {
+		for (int suitIndex = 0; suitIndex < Suit.values().length; suitIndex++) {
+			this.getCards().addAll(getAllValuesWithSuit(Suit.values()[suitIndex]));
 		}
 	}
 
-	public void multiply(int multiplier){
-		for(int i = 1; i < multiplier; i++)
+	public CardDeck(int deckMultiplier) {
+		this();
+		multiply(deckMultiplier);
+	}
+
+	private List<ICard> getAllValuesWithSuit(Suit suit) {
+		List<ICard> cards = new ArrayList<>();
+		for (int valueIndex = 0; valueIndex < CardValue.values().length; valueIndex++) {
+			ICard newCard = new Card(suit, CardValue.values()[valueIndex]);
+			cards.add(newCard);
+		}
+		return cards;
+	}
+
+	public void multiply(int multiplier) {
+		for (int i = 1; i < multiplier; i++) {
 			this.addAll(this.getCards());
+		}
 	}
 
 	public ICard draw() {
